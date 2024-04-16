@@ -8,5 +8,5 @@ public class Sale : Entity<Guid>
     public DateTime SaleDate { get; set; }
     
     public virtual Customer Customer { get; set; }
-    public virtual ICollection<PurchaseDetail> PurchaseDetails { get; set; }
+    public virtual ICollection<SaleDetail> SaleDetails { get; set; }
 }

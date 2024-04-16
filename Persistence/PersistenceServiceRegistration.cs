@@ -26,6 +26,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<ITransactionRepository, TransactionRepository>();
         services.AddScoped<ITransactionTypeRepository, TransactionTypeRepository>();
         services.AddScoped<IPurchaseRepository, PurchaseRepository>();
+        services.AddScoped<ISaleRepository, SaleRepository>();
         
           
         // services.AddScoped<IEmailAuthenticatorRepository, EmailAuthenticatorRepository>();

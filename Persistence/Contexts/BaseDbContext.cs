@@ -15,7 +15,9 @@ public class BaseDbContext : DbContext
     public DbSet<Transaction> Transactions { get; set; }
     public DbSet<TransactionType> TransactionTypes { get; set; }
     public DbSet<Purchase> Purchases { get; set; }
-    public DbSet<PurchaseDetail> PurchasesDetails { get; set; }
+    public DbSet<PurchaseDetail> PurchaseDetails { get; set; }
+    public DbSet<Sale> Sales { get; set; }
+    public DbSet<SaleDetail> SaleDetails { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
     {

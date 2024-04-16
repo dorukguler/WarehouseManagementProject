@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using Application.Services.PurchaseService;
+using Application.Services.SaleService;
 using Application.Services.StockService;
 using Application.Services.TransactionService;
 using Domain.Entities;
@@ -26,6 +27,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ITransactionService, TransactionManager>();
         services.AddScoped<IStockService, StockManager>();
         services.AddScoped<IPurchaseService, PurchaseManager>();
+        services.AddScoped<ISaleService, SaleManager>();
 
         return services;
     }

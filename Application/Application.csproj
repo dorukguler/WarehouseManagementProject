@@ -10,6 +10,8 @@
       <Folder Include="Features\Products\Commands\Delete\" />
       <Folder Include="Features\Products\Commands\Update\" />
       <Folder Include="Features\Purchases\Rules\" />
+      <Folder Include="Features\Sales\Constants\" />
+      <Folder Include="Features\Sales\Rules\" />
     </ItemGroup>
 
     <ItemGroup>

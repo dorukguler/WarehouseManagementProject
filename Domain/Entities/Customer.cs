@@ -10,7 +10,8 @@ public class Customer: Entity<Guid>
     public string Contact { get; set; }
     
     
-    
+    public virtual ICollection<Product> Products { get; set; }
+    public virtual ICollection<Sale> Sales { get; set; }
     public Customer()
     {
         

@@ -5,6 +5,7 @@ namespace Domain.Entities;
 public class Transaction :Entity<Guid>
 {
     public Guid ProductId { get; set; }
+    public Guid? SaleId { get; set; }
     public Guid? CustomerId { get; set; }
     public Guid? SupplierId { get; set; }
     public int TransactionTypeId { get; set; }
@@ -16,7 +17,7 @@ public class Transaction :Entity<Guid>
     public virtual Customer Customer { get; set; }
     public virtual Supplier Supplier { get; set; }
     public virtual Product Product { get; set; }
-    // public virtual Order Purchase { get; set; }
+    
     
     public virtual TransactionType TransactionType { get; set; }
 
