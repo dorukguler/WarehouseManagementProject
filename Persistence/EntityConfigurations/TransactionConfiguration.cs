@@ -15,9 +15,10 @@ public class TransactionConfiguration : IEntityTypeConfiguration<Transaction>
         builder.Property(transaction => transaction.TransactionTypeId).HasColumnName("TransactionTypeId").IsRequired();
         builder.Property(transaction => transaction.TransactionTime).HasColumnName("TransactionTime").IsRequired();
         builder.Property(transaction => transaction.CustomerId).HasColumnName("CustomerId");
-        builder.Property(transaction => transaction.CustomerId).HasColumnName("CustomerId");
+        builder.Property(transaction => transaction.SupplierId).HasColumnName("SupplierId");
         builder.Property(transaction => transaction.Quantity).HasColumnName("Quantity").IsRequired();
         builder.Property(transaction => transaction.PurchaseId).HasColumnName("PurchaseId");
+        builder.Property(transaction => transaction.SaleId).HasColumnName("SaleId");
         builder.Property(transaction => transaction.CreatedDate).HasColumnName("CreatedDate").IsRequired();
         builder.Property(transaction => transaction.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(transaction => transaction.DeletedDate).HasColumnName("DeletedDate");
