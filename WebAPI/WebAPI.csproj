@@ -28,4 +28,10 @@
       <Folder Include="logs\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Core.Application">
+        <HintPath>..\src\corePackages\Core.Application\bin\Debug\net8.0\Core.Application.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

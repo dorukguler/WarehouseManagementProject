@@ -16,4 +16,16 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Core.Persistence">
+        <HintPath>..\src\corePackages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll</HintPath>
+      </Reference>
+      <Reference Include="Core.Persistence.DependencyInjection">
+        <HintPath>..\src\corePackages\Core.Persistence.DependencyInjection\bin\Debug\net8.0\Core.Persistence.DependencyInjection.dll</HintPath>
+      </Reference>
+      <Reference Include="Core.Persistence.WebApi">
+        <HintPath>..\src\corePackages\Core.Persistence.WebApi\bin\Debug\net8.0\Core.Persistence.WebApi.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Core.Persistence">
-        <HintPath>..\..\Core\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll</HintPath>
-      </Reference>
+      <ProjectReference Include="..\..\WMSProject\src\corePackages\Core.Persistence\Core.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\WMSProject\src\corePackages\Core.Persistence\Core.Persistence.csproj" />
+      <Reference Include="Core.Persistence">
+        <HintPath>..\src\corePackages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
