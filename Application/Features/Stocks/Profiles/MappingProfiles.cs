@@ -1,4 +1,3 @@
-using Application.Features.Stocks.Commands;
 using Application.Features.Stocks.Commands.Create;
 using Application.Stocks.Queries;
 using AutoMapper;

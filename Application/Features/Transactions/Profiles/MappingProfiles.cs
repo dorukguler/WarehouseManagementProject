@@ -1,5 +1,4 @@
 using AutoMapper;
-using Domain.Entities;
 
 namespace Application.Features.Transactions.Profiles;
 

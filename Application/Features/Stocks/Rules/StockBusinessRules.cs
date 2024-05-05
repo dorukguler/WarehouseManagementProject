@@ -1,4 +1,3 @@
-using Application.Features.Products.Constants;
 using Application.Features.Stocks.Constants;
 using Application.Services.Repositories;
 using Domain.Entities;

@@ -1,4 +1,3 @@
-using Application.Features.Purchases.Commands.Create;
 using Application.Features.Sales.Commands.Create;
 using Microsoft.AspNetCore.Mvc;
 
